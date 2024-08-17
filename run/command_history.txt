@@ -1,0 +1,33 @@
+/spawnpoint
+/reload
+/kill @e[type=minecraft:sheep]
+/kill @e[name="asd"]
+/kill @e[name="Plauer797"]
+/kill @e[name=Plauer797]
+/enchant Player449 minecraft:fortune 3
+/recipe give Player449 expandedex:*
+/recipe give Player449 expandedex:
+/recipe give Player449 *
+/give Player449 minecraft:netherite_pickaxe
+/enchant Player449 minecraft:silk_touch
+/give Player473 expandedex:marble_brick_fence_gate
+/time set day
+/spawnpoint
+/kill @e
+/gamerule doDaylightCycle flase
+/gamerule doDaylightCycle false
+/summon minecraft:piglin
+/kill aefbee24-b7fc-4bec-afc7-a449118f7762
+/effect give Player983 minecraft:regeneration infinite
+/effect give Player983 minecraft:regeneration infinite 255
+/effect clear
+/effect give Player983 minecraft:regeneration infinite 255 false
+/summon minecraft:piglin
+/weather clear
+/effect clear
+/effect give Player426 minecraft:night_vision
+/effect give Player426 minecraft:night_vision infinite 1 true
+/kill @e[type=minecraft:dolphin]
+/give Player6 minecraft:netherite_shovel
+/enchant Player6 minecraft:efficiency 4
+/enchant Player6 minecraft:efficiency 5

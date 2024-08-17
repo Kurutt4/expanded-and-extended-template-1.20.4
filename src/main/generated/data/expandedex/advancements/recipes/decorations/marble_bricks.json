@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:marble_bricks"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_withered_nether_star": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "expandedex:withered_nether_star"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_withered_nether_star"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:marble_bricks"
+    ]
+  }
+}

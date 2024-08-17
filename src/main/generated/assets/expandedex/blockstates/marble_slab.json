@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "expandedex:block/marble_slab"
+    },
+    "type=double": {
+      "model": "expandedex:block/marble"
+    },
+    "type=top": {
+      "model": "expandedex:block/marble_slab_top"
+    }
+  }
+}

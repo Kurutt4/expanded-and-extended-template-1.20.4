@@ -1,0 +1,27 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-08-14 23:36:25 -0300"
+    },
+    "done": true
+  },
+  "expandedex:recipes/building_blocks/withered_nether_star": {
+    "criteria": {
+      "has_marble_bricks": "2024-08-14 23:36:56 -0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2024-08-14 23:36:27 -0300"
+    },
+    "done": false
+  },
+  "expandedex:recipes/misc/withered_nether_star_from_smelting_marble_bricks": {
+    "criteria": {
+      "has_marble_bricks": "2024-08-14 23:36:56 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3700
+}

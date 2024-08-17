@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "expandedex:fire_helmet",
+    "expandedex:fire_chestplate",
+    "expandedex:fire_leggings",
+    "expandedex:fire_boots",
+    "expandedex:obsidium_helmet",
+    "expandedex:obsidium_chestplate",
+    "expandedex:obsidium_leggings",
+    "expandedex:obsidium_boots"
+  ]
+}

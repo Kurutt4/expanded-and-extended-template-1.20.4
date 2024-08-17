@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "expandedex:marble",
+    "expandedex:marble_stairs",
+    "expandedex:marble_slab",
+    "expandedex:marble_wall",
+    "expandedex:marble_fence_gate",
+    "expandedex:marble_bricks",
+    "expandedex:marble_brick_stairs",
+    "expandedex:marble_brick_slab",
+    "expandedex:marble_brick_wall",
+    "expandedex:marble_brick_fence_gate",
+    "expandedex:chiseled_marble_bricks",
+    "expandedex:marble_pavement"
+  ]
+}

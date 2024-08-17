@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "group": "marble",
+  "ingredient": {
+    "item": "expandedex:withered_nether_star"
+  },
+  "result": "expandedex:withered_nether_star"
+}

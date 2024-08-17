@@ -1,0 +1,52 @@
+{
+  "item.expandedex.ascent_core": "Ascent Core",
+  "item.expandedex.obsidium_core": "Obsidium Core",
+  "item.expandedex.fire_core": "Fire Core",
+  "item.expandedex.withered_nether_star": "Withered Nether Star",
+  "item.expandedex.lantern_item": "Lantern",
+  "item.expandedex.sandwich": "Sandwich",
+  "item.expandedex.tiny_coal": "Tiny Coal",
+
+
+
+
+  "item.expandedex.obsidium_helmet": "Obsidium Helmet",
+  "item.expandedex.obsidium_chestplate": "Obsidium Chestplate",
+  "item.expandedex.obsidium_leggings": "Obsidium Leggings",
+  "item.expandedex.obsidium_boots": "Obsidium boots",
+
+  "item.expandedex.fire_helmet": "Fire Helmet",
+  "item.expandedex.fire_chestplate": "Fire Chestplate",
+  "item.expandedex.fire_leggings": "Fire Leggings",
+  "item.expandedex.fire_boots": "Fire Boots",
+
+
+  "item.expandedex.aquatic_mask": "Mask",
+  "item.expandedex.aquatic_fins": "Fins",
+  "item.expandedex.iron_spyglass": "Iron Spyglass",
+
+
+  "block.expandedex.marble": "Marble",
+  "block.expandedex.marble_bricks": "Marble Bricks",
+  "block.expandedex.chiseled_marble_bricks": "Chiseled Marble Bricks",
+  "block.expandedex.marble_pavement": "Chiseled Pavement",
+  "block.expandedex.marble_stairs": "Marble Stairs",
+  "block.expandedex.marble_brick_stairs": "Marble Brick Stairs",
+  "block.expandedex.marble_slab": "Marble Slab",
+  "block.expandedex.marble_brick_slab": "Marble Brick Slab",
+  "block.expandedex.marble_wall": "Marble Wall",
+  "block.expandedex.marble_brick_wall": "Marble Brick Wall",
+  "block.expandedex.marble_fence_gate": "Marble Fenge Gate",
+  "block.expandedex.marble_brick_fence_gate": "Marble Brick Fence Gate",
+
+
+
+
+
+  "itemgroup.expandedex.misc_tab": "E&E: Miscellaneous ",
+  "itemgroup.expandedex.building_blocks_tab": "E&E: Building Blocks",
+  "itemgroup.expandedex.magic_tab": "E&E: Magic",
+  "itemgroup.expandedex.aquatic_methods_tab": "E&E: Aquatic Methods",
+  "itemgroup.expandedex.equipment_tab": "E&E: Equipment",
+  "itemgroup.expandedex.cozy_tab": "E&E: Furniture"
+}
