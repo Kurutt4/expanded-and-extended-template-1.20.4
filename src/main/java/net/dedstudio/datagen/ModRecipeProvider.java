@@ -10,6 +10,8 @@ import net.minecraft.data.server.recipe.ShapelessRecipeJsonBuilder;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.RecipeSerializer;
+import net.minecraft.recipe.SmeltingRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 import org.jetbrains.annotations.Nullable;
@@ -69,7 +71,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .pattern("SSS")
                 .input('S', ModItems.TINY_COAL)
                 .input('A', Items.STICK);
-
 
 
     }

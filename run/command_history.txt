@@ -1,6 +1,3 @@
-/spawnpoint
-/reload
-/kill @e[type=minecraft:sheep]
 /kill @e[name="asd"]
 /kill @e[name="Plauer797"]
 /kill @e[name=Plauer797]
@@ -31,3 +28,23 @@
 /give Player6 minecraft:netherite_shovel
 /enchant Player6 minecraft:efficiency 4
 /enchant Player6 minecraft:efficiency 5
+/attribute Player751 minecraft:generic.movement_speed
+/attribute Player751 minecraft:generic.movement_speed base get
+/attribute Player751 minecraft:generic.movement_speed base get 0
+/attribute Player751 minecraft:generic.movement_speed base set 0
+/attribute Player751 minecraft:generic.movement_speed base set 1
+/attribute Player751 minecraft:generic.movement_speed base set 0.0001
+/kill
+/attribute Player751 minecraft:generic.movement_speed modifier
+/attribute Player751 minecraft:generic.movement_speed modifier remove e6f4bde2-cf44-4c3e-aeb0-6f7c8f65f8fc
+/attribute Player751 minecraft:generic.movement_speed base set 0.000001
+/attribute Player751 minecraft:generic.movement_speed get 0
+/attribute Player751 minecraft:generic.movement_speed get 1
+/effect give Player653 minecraft:speed infinite 5
+/effect clear
+/time set day
+/give Player388 minecraft:netherite_shovel
+/enchant Player388 minecraft:efficiency 5
+/give Player722 minecraft:enchanted_golden_apple 64
+/effect clear
+/give @p expandedex:aquatic_fins

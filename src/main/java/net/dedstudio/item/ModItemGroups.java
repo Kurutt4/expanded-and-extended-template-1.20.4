@@ -16,7 +16,6 @@ public class ModItemGroups {
             new Identifier(ExpandedAndExtended.MOD_ID, "ascent_core"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.expandedex.aquatic_methods_tab"))
                     .icon(() -> new ItemStack(ModItems.ASCENT_CORE)).entries((displayContext, entries) -> {
-                        entries.add(ModItems.LANTERN_ITEM);
 
                         entries.add(ModItems.AQUATIC_FINS);
                         entries.add(ModItems.AQUATIC_MASK);
@@ -73,7 +72,6 @@ public class ModItemGroups {
                         entries.add(ModItems.FIRE_CORE);
                         entries.add(ModItems.OBSIDIUM_CORE);
                         entries.add(ModItems.WITHERED_NETHER_STAR);
-                        entries.add(ModItems.LANTERN_ITEM);
                         entries.add(ModItems.SANDWICH);
                         entries.add(ModItems.TINY_COAL);
 

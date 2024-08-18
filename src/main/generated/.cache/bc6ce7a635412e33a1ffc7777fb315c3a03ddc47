@@ -1,11 +1,11 @@
-// 1.20.4	2024-08-16T22:44:31.8771619	Expanded and Extended/Tags for minecraft:block
+// 1.20.4	2024-08-18T16:23:16.6025072	Expanded and Extended/Tags for minecraft:block
 7aec4f90559d006809954a894a86ca994690b916 data\minecraft\tags\blocks\fence_gates.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
 0ff3a8227ab5eb3fad6a09ea3fe2607cecdd4bda data\expandedex\tags\blocks\all_marble_variants.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_diamond_tool.json
 108344314f3dae9075eccb4d3bf668edfbd792f7 data\expandedex\tags\blocks\ores.json
-288491b31f41f20bffbef0834a8c8eed3948a353 data\minecraft\tags\blocks\walls.json
 9c88247b194fe9323d16bfee8ee4c2efbb4006ae data\minecraft\tags\blocks\slabs.json
+288491b31f41f20bffbef0834a8c8eed3948a353 data\minecraft\tags\blocks\walls.json
 b94e952ce142030794558f5e47ba0c79d22f8493 data\minecraft\tags\blocks\mineable\pickaxe.json
 fc056742d4a44258781164bd7fe18f10850b4958 data\minecraft\tags\blocks\stairs.json

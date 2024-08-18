@@ -3,7 +3,6 @@ package net.dedstudio;
 import net.dedstudio.block.ModBlocks;
 import net.dedstudio.item.ModItemGroups;
 import net.dedstudio.item.ModItems;
-import net.dedstudio.item.custom.AquaticFinsInvTick;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;

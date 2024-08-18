@@ -41,7 +41,6 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.FIRE_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.OBSIDIUM_CORE, Models.GENERATED);
         itemModelGenerator.register(ModItems.WITHERED_NETHER_STAR, Models.GENERATED);
-        itemModelGenerator.register(ModItems.LANTERN_ITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.SANDWICH, Models.GENERATED);
         itemModelGenerator.register(ModItems.TINY_COAL, Models.GENERATED);
 

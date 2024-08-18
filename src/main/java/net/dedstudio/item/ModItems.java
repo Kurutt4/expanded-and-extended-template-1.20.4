@@ -3,7 +3,6 @@ package net.dedstudio.item;
 import net.dedstudio.ExpandedAndExtended;
 import net.dedstudio.item.custom.AquaticFinsInvTick;
 import net.dedstudio.item.custom.AquaticMaskInvTick;
-import net.dedstudio.item.custom.lanternitem.LanternItem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
@@ -20,7 +19,6 @@ public class ModItems {
     public static final Item OBSIDIUM_CORE = registerItem("obsidium_core", new Item(new FabricItemSettings()));
     public static final Item WITHERED_NETHER_STAR = registerItem("withered_nether_star", new Item(new FabricItemSettings()));
 
-    public static final Item LANTERN_ITEM = new LanternItem(new FabricItemSettings());
     public static final Item SANDWICH = registerItem("sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.SANDWICH)));
 
     public static final Item TINY_COAL = registerItem("tiny_coal", new Item(new FabricItemSettings()));
