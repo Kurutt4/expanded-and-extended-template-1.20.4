@@ -1,5 +1,6 @@
-// 1.20.4	2024-08-18T16:23:16.6025072	Expanded and Extended/Tags for minecraft:block
+// 1.20.4	2024-08-19T19:37:59.1360764	Expanded and Extended/Tags for minecraft:block
 7aec4f90559d006809954a894a86ca994690b916 data\minecraft\tags\blocks\fence_gates.json
+d925eafe0440be339375b7165bffd2699a47549c data\minecraft\tags\blocks\logs_that_burn.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_stone_tool.json
 8a23702b05296c8af5014d6aa6e9265ded85c7d9 data\minecraft\tags\blocks\needs_iron_tool.json
 0ff3a8227ab5eb3fad6a09ea3fe2607cecdd4bda data\expandedex\tags\blocks\all_marble_variants.json

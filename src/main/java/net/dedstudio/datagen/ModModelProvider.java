@@ -20,6 +20,11 @@ public class ModModelProvider extends FabricModelProvider {
         BlockStateModelGenerator.BlockTexturePool marbleBrickPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.MARBLE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CHISELED_MARBLE_BRICKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.MARBLE_PAVEMENT);
+        blockStateModelGenerator.registerLog(ModBlocks.PALM_LOG).log(ModBlocks.PALM_LOG).wood(ModBlocks.PALM_WOOD);
+        blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PALM_LOG).log(ModBlocks.STRIPPED_PALM_LOG).wood(ModBlocks.STRIPPED_PALM_WOOD);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_LEAVES);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_PLANKS);
+        blockStateModelGenerator.registerTintableCross(ModBlocks.PALM_TREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
         marblePool.stairs(ModBlocks.MARBLE_STAIRS);

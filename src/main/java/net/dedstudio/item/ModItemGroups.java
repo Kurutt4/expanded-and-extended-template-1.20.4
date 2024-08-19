@@ -62,6 +62,13 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MARBLE_FENCE_GATE);
                         entries.add(ModBlocks.MARBLE_BRICK_FENCE_GATE);
 
+                        entries.add(ModBlocks.PALM_LOG);
+                        entries.add(ModBlocks.PALM_WOOD);
+                        entries.add(ModBlocks.STRIPPED_PALM_LOG);
+                        entries.add(ModBlocks.STRIPPED_PALM_WOOD);
+                        entries.add(ModBlocks.PALM_PLANKS);
+                        entries.add(ModBlocks.PALM_LEAVES);
+
                     }).build());
 
     public static final ItemGroup MISC_TAB = Registry.register(Registries.ITEM_GROUP,
@@ -74,6 +81,7 @@ public class ModItemGroups {
                         entries.add(ModItems.WITHERED_NETHER_STAR);
                         entries.add(ModItems.SANDWICH);
                         entries.add(ModItems.TINY_COAL);
+                        entries.add(ModBlocks.PALM_TREE_SAPLING);
 
 
                     }).build());

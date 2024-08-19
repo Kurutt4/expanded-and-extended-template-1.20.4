@@ -1,11 +1,3 @@
-/kill @e[name="asd"]
-/kill @e[name="Plauer797"]
-/kill @e[name=Plauer797]
-/enchant Player449 minecraft:fortune 3
-/recipe give Player449 expandedex:*
-/recipe give Player449 expandedex:
-/recipe give Player449 *
-/give Player449 minecraft:netherite_pickaxe
 /enchant Player449 minecraft:silk_touch
 /give Player473 expandedex:marble_brick_fence_gate
 /time set day
@@ -48,3 +40,11 @@
 /give Player722 minecraft:enchanted_golden_apple 64
 /effect clear
 /give @p expandedex:aquatic_fins
+/time set day
+/fabric-command-api-v2:client
+/fabric-command-api-v2:client help
+/fabric-command-api-v2:client help version
+/time set day
+/gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3000000
+/gamerule randomTickSpeed 3000
