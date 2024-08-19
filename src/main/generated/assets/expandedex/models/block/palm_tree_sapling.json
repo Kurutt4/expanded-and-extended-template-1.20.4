@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "expandedex:block/palm_tree_sapling"
+  }
+}

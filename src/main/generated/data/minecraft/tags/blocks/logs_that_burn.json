@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "expandedex:palm_log",
+    "expandedex:palm_wood",
+    "expandedex:stripped_palm_log",
+    "expandedex:stripped_palm_wood"
+  ]
+}
