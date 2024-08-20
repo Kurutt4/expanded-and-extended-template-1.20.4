@@ -11,6 +11,7 @@ import net.minecraft.world.gen.feature.size.TwoLayersFeatureSize;
 import net.minecraft.world.gen.foliage.BlobFoliagePlacer;
 import net.minecraft.world.gen.stateprovider.BlockStateProvider;
 import net.minecraft.world.gen.trunk.ForkingTrunkPlacer;
+import net.minecraft.world.gen.trunk.StraightTrunkPlacer;
 
 import java.util.List;
 
@@ -24,12 +25,12 @@ public class ModConfiguredFeatures {
 
         register(context, PALM_KEY, Feature.TREE, new TreeFeatureConfig.Builder(
                 BlockStateProvider.of(ModBlocks.PALM_WOOD),
-                new ForkingTrunkPlacer(5, 4,1),
+                new StraightTrunkPlacer(8, 4,0),
 
                 BlockStateProvider.of(ModBlocks.PALM_LEAVES),
-                new BlobFoliagePlacer(ConstantIntProvider.create(2), ConstantIntProvider.create(1), 2),
+                new BlobFoliagePlacer(ConstantIntProvider.create(0), ConstantIntProvider.create(0), 3),
 
-                new TwoLayersFeatureSize(1, 0, 2)).build());
+                new TwoLayersFeatureSize(1, 0, 1)).build());
     }
 
 

@@ -1,13 +1,3 @@
-/kill @e
-/gamerule doDaylightCycle flase
-/gamerule doDaylightCycle false
-/summon minecraft:piglin
-/kill aefbee24-b7fc-4bec-afc7-a449118f7762
-/effect give Player983 minecraft:regeneration infinite
-/effect give Player983 minecraft:regeneration infinite 255
-/effect clear
-/effect give Player983 minecraft:regeneration infinite 255 false
-/summon minecraft:piglin
 /weather clear
 /effect clear
 /effect give Player426 minecraft:night_vision
@@ -48,3 +38,13 @@
 /time set day
 /weather clear
 /effect give Player701 minecraft:hunger 5 255
+/gamerule doDaylightCycle false
+/gamerule doMobSpawning false
+/kill @e
+/time set 6000
+/fill 17 -61 54
+/fill 17 -61 54 -51 -61 15 air
+/give Player442 minecraft:structure_block
+/give Player442 minecraft:structure_void
+/spawnpoint
+/give Player442 minecraft:jigsaw
