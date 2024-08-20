@@ -1,7 +1,3 @@
-/enchant Player449 minecraft:silk_touch
-/give Player473 expandedex:marble_brick_fence_gate
-/time set day
-/spawnpoint
 /kill @e
 /gamerule doDaylightCycle flase
 /gamerule doDaylightCycle false
@@ -48,3 +44,7 @@
 /gamerule randomTickSpeed 3000
 /gamerule randomTickSpeed 3000000
 /gamerule randomTickSpeed 3000
+/gamerule randomTickSpeed 3
+/time set day
+/weather clear
+/effect give Player701 minecraft:hunger 5 255

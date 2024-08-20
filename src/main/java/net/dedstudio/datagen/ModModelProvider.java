@@ -24,7 +24,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerLog(ModBlocks.STRIPPED_PALM_LOG).log(ModBlocks.STRIPPED_PALM_LOG).wood(ModBlocks.STRIPPED_PALM_WOOD);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_LEAVES);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PALM_PLANKS);
-        blockStateModelGenerator.registerTintableCross(ModBlocks.PALM_TREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.PALM_TREE_SAPLING, ModBlocks.POTTED_PALM_TREE_SAPLING, BlockStateModelGenerator.TintType.NOT_TINTED);
 
 
         marblePool.stairs(ModBlocks.MARBLE_STAIRS);
@@ -48,6 +48,7 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WITHERED_NETHER_STAR, Models.GENERATED);
         itemModelGenerator.register(ModItems.SANDWICH, Models.GENERATED);
         itemModelGenerator.register(ModItems.TINY_COAL, Models.GENERATED);
+        itemModelGenerator.register(ModItems.COCONUT, Models.GENERATED);
 
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.FIRE_HELMET));
         itemModelGenerator.registerArmor(((ArmorItem) ModItems.FIRE_CHESTPLATE));

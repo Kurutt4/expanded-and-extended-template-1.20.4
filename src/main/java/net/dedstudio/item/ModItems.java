@@ -20,6 +20,9 @@ public class ModItems {
     public static final Item WITHERED_NETHER_STAR = registerItem("withered_nether_star", new Item(new FabricItemSettings()));
 
     public static final Item SANDWICH = registerItem("sandwich", new Item(new FabricItemSettings().food(ModFoodComponents.SANDWICH)));
+    public static final Item COCONUT = registerItem("coconut", new Item(new FabricItemSettings().food(ModFoodComponents.COCONUT)));
+
+
 
     public static final Item TINY_COAL = registerItem("tiny_coal", new Item(new FabricItemSettings()));
 

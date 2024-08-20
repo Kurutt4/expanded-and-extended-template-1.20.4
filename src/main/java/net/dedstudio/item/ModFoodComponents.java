@@ -8,4 +8,7 @@ import net.minecraft.item.FoodComponent;
 public class ModFoodComponents {
     public static final FoodComponent SANDWICH = new FoodComponent.Builder().hunger(8)
             .saturationModifier(0.25f).build();
+
+    public static final FoodComponent COCONUT = new FoodComponent.Builder().hunger(5)
+            .saturationModifier(0.25f).build();
 }

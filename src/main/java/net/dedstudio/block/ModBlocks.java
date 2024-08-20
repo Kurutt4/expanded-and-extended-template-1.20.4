@@ -60,7 +60,7 @@ public class ModBlocks {
             new SaplingBlock(ModSaplingGenerators.PALM_TREE, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING)));
 
     public static final Block POTTED_PALM_TREE_SAPLING = Registry.register(Registries.BLOCK, new Identifier(ExpandedAndExtended.MOD_ID, "potted_palm_tree_sapling"),
-            new FlowerPotBlock(PALM_TREE_SAPLING, FabricBlockSettings.copyOf(Blocks.OAK_SAPLING).nonOpaque()));
+            new FlowerPotBlock(PALM_TREE_SAPLING, FabricBlockSettings.copyOf(Blocks.POTTED_ALLIUM).nonOpaque()));
 
 
 

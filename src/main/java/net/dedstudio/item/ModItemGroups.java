@@ -80,6 +80,7 @@ public class ModItemGroups {
                         entries.add(ModItems.OBSIDIUM_CORE);
                         entries.add(ModItems.WITHERED_NETHER_STAR);
                         entries.add(ModItems.SANDWICH);
+                        entries.add(ModItems.COCONUT);
                         entries.add(ModItems.TINY_COAL);
                         entries.add(ModBlocks.PALM_TREE_SAPLING);
 

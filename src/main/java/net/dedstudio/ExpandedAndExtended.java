@@ -5,10 +5,15 @@ import net.dedstudio.item.ModItemGroups;
 import net.dedstudio.item.ModItems;
 import net.dedstudio.world.ModConfiguredFeatures;
 import net.fabricmc.api.ModInitializer;
+import net.fabricmc.fabric.api.event.registry.RegistryEntryAddedCallback;
 import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
 import net.fabricmc.fabric.api.registry.FuelRegistry;
 import net.fabricmc.fabric.api.registry.StrippableBlockRegistry;
+import net.minecraft.registry.Registerable;
+import net.minecraft.registry.Registry;
+import net.minecraft.registry.RegistryBuilder;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.world.gen.feature.ConfiguredFeature;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -23,6 +28,7 @@ public class ExpandedAndExtended implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
 
+
 		StrippableBlockRegistry.register(ModBlocks.PALM_LOG, ModBlocks.STRIPPED_PALM_LOG);
 		StrippableBlockRegistry.register(ModBlocks.PALM_WOOD, ModBlocks.STRIPPED_PALM_WOOD);
 
@@ -35,6 +41,11 @@ public class ExpandedAndExtended implements ModInitializer {
 
 		//REGISTER FUEL ITEMS
 		FuelRegistry.INSTANCE.add(ModItems.TINY_COAL, 200);
+
+
+
+
+
 
 		LOGGER.info("Hello Fabric world!");
 
